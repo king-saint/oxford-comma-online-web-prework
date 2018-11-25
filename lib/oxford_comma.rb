@@ -1,15 +1,15 @@
+
 def oxford_comma(array)
   if array.length == 2
-    array[-2] << ", and"
     array.join(", ")
-    binding.pry
+    array[-2] << ", and"
+    
   elsif array.length > 2
-    array[-2] << ", and"
-    array.join(", ")
-    binding.pry
+    new_array[-2] << ", and"
+    new_array  = array.join(", ")
+    
   else
     array.join()
-    binding.pry
   end
 end
 
